@@ -2,9 +2,10 @@
 ### test
 ###
 
+# delete data
 ./clean.sh
 
-# 前処理
+# preprocess
 fairseq-preprocess \
         --user-dir my-script \
         --source-lang ja --target-lang en \
